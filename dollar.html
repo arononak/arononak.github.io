@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <span id="text"/>
+  <script>
+    fetch("https://api.nbp.pl/api/exchangerates/rates/a/usd?format=json")
+      .then(res => res.json())
+      .then(data => document.getElementById("text").innerText = data['rates'][0]['mid']);
+  </script>
+</body>
+
+</html>
