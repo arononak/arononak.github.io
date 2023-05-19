@@ -4,7 +4,7 @@
 <body>
   <span id="text"/>
   <script>
-    fetch("http://api.nbp.pl/api/cenyzlota?format=json")
+    fetch("https://api.nbp.pl/api/cenyzlota?format=json")
       .then(res => res.json())
       .then(data => document.getElementById("text").innerText = data[0]['cena'] * 31.1035);
   </script>
