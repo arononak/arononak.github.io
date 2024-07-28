@@ -2,6 +2,8 @@
 
 arononak@gmail.com
 
+contact@aroncode.com
+
 https://aroncode.com
 
 
